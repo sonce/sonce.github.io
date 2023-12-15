@@ -154,8 +154,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d71d85dd995abf86",
+  "active": "a73c5b1b1b3ae865",
   "lastOpenFiles": [
+    "sonce.github.io/source/CNAME",
+    "sonce.github.io/source/新建 文本文档.txt",
     "index.html",
     "新建 文本文档.txt",
     "sonce.github.io/node_modules/hexo-auto-category/node_modules/dom-serializer/node_modules/entities/package.json",
@@ -165,8 +167,6 @@
     "sonce.github.io/node_modules/hexo-auto-category/node_modules/hexo-util/package.json",
     "sonce.github.io/node_modules/hexo-auto-category/node_modules/hexo-fs/package.json",
     "sonce.github.io/node_modules/hexo-auto-category/node_modules/js-yaml/package.json",
-    "sonce.github.io/node_modules/hexo-auto-category/node_modules/hexo-front-matter/package.json",
-    "sonce.github.io/node_modules/hexo-auto-category/package.json",
     "docs/static/img/dccf965f.jpg",
     "docs/icons/favicon-32x32.png",
     "docs/icons/favicon-16x16.png",
