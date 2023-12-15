@@ -1,0 +1,9 @@
+{
+  "userIgnoreFilters": [
+    "sonce.github.io/node_modules/",
+    "sonce.github.io/scaffolds/",
+    "sonce.github.io/themes/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes"
+}
