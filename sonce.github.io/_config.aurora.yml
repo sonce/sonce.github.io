@@ -138,7 +138,7 @@ gitalk:
   repo: 'sonce.github.io' ## dev-blo-comments
   owner: 'sonce' ## owner name
   admin: ['sonce'] ## ['admin_name']
-  id: sonce.github.io
+  id: 'sonce.github.io'
   language: zh-CN
   distractionFreeMode: true
   recentComment: true
