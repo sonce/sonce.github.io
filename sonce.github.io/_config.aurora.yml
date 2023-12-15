@@ -135,10 +135,10 @@ gitalk:
   autoExpand: true
   clientID: 'c6a00b4c3d3fe92af169'
   clientSecret: 'e04dd73ce0b057964a35c9ab1ed958dc8ccf4f98'
-  repo: '' ## dev-blo-comments
+  repo: 'https://github.com/sonce/sonce.github.io' ## dev-blo-comments
   owner: 'sonce' ## owner name
-  admin: [''] ## ['admin_name']
-  id: uid
+  admin: ['sonce'] ## ['admin_name']
+  id: sonce.github.io
   language: zh-CN
   distractionFreeMode: true
   recentComment: true
