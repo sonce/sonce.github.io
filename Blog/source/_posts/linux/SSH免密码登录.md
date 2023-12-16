@@ -1,12 +1,12 @@
 ---
 title: SSH免密码登录
-date: 2023-12-16 10:29:21
 categories:
-  - Linux
+  - linux
 tags:
   - 登录
-cover: https://img.itwoow.com/python.jpg
+cover: 'https://img.itwoow.com/python.jpg'
 feature: false
+date: 2023-12-16 10:29:21
 ---
 ## 生成证书
 
