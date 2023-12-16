@@ -14,10 +14,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
-      - name: Set up the working directory
-        run: |
-          echo 'Change working-directory'
-        working-directory: ./Blog
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
@@ -25,11 +21,10 @@ jobs:
       - name: Cache NPM dependencies
         uses: actions/cache@v2
         with:
-          path: node_modules
+          path: ./Blog/node_modules
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-        working-directory: ./Blog
       - name: Install Dependencies
         run: npm install
         working-directory: ./Blog
@@ -39,8 +34,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./public
-        working-directory: ./Blog
+          path: ./Blog/public
   deploy:
     needs: build
     permissions:
@@ -54,4 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        working-directory: ./Blog
