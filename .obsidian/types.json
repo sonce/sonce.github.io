@@ -5,6 +5,7 @@
     "tags": "tags",
     "hide": "checkbox",
     "published": "checkbox",
-    "comments": "checkbox"
+    "comments": "checkbox",
+    "image-auto-upload": "checkbox"
   }
 }

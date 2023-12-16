@@ -9,4 +9,5 @@ cover: https://img.itwoow.com/python.jpg
 feature: false
 published: true
 comments: true
+image-auto-upload: false
 ---
