@@ -135,7 +135,7 @@ gitalk:
   autoExpand: true
   clientID: 'c6a00b4c3d3fe92af169'
   clientSecret: 'e04dd73ce0b057964a35c9ab1ed958dc8ccf4f98'
-  repo: 'sonce.github.io' ## dev-blo-comments
+  repo: 'wwwfans.xyz' ## dev-blo-comments
   owner: 'sonce' ## owner name
   admin: ['sonce'] ## ['admin_name']
   id: '1'
@@ -222,15 +222,15 @@ injects:
 #! ---------------------------------------------------------------
 #! Footer links
 #! ---------------------------------------------------------------
-footer_links:
-  - title: # main title
-    links:
-      - title: # link title
-        url: # URL link
-      - title: # link title
-        url: # URL link
-      - title: Friends # link of friends mode / 友链模式
-        mode: 'links'
+# footer_links:
+#   - title: # main title
+#     links:
+#       - title: # link title
+#         url: # URL link
+#       - title: # link title
+#         url: # URL link
+#       - title: Friends # link of friends mode / 友链模式
+#         mode: 'links'
 
 #! ---------------------------------------------------------------
 #! Highlighter Shiki
