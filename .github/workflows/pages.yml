@@ -29,14 +29,18 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+        working-directory: ./Blog
       - name: Install Dependencies
         run: npm install
+        working-directory: ./Blog
       - name: Build
         run: npm run build
+        working-directory: ./Blog
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
+        working-directory: ./Blog
   deploy:
     needs: build
     permissions:
@@ -50,3 +54,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        working-directory: ./Blog
