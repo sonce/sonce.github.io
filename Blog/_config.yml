@@ -22,7 +22,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: ../docs
+public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -103,7 +103,9 @@ theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type:git
+  repo: https://github.com/sonce/sonce.github.io
+  branch: gh-pages
 
 # Generate categories from directory-tree
 # Dependencies: https://github.com/xu-song/hexo-auto-category
@@ -112,3 +114,12 @@ deploy:
 auto_category:
  enable: true
  depth:
+
+
+sitemap:
+  path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
