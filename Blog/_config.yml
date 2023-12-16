@@ -103,7 +103,7 @@ theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type:git
+  type: git
   repo: https://github.com/sonce/sonce.github.io
   branch: gh-pages
 
