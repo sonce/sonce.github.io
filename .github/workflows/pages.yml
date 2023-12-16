@@ -14,7 +14,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
-      - name: Setup Symfony
+      - name: Set up the working directory
+        run: |
+          echo 'Change working-directory'
         working-directory: ./Blog
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
