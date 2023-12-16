@@ -84,7 +84,7 @@ menu:
 #! ---------------------------------------------------------------
 theme:
   dark_mode: 'auto'
-  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  profile_shape: circle # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
     color_1: '#24c6dc'
@@ -119,10 +119,10 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: cn
-  favicon:
-  description: ''
-  keywords: ''
-  author: ''
+  favicon: https://img.wwwfans.xyz/wwwfans.ico
+  description: '互联网是连接世界的桥梁，要用它来传播知识和正能量。'
+  keywords: 'Frontend, Web development, Blog, DotNet Core, C#'
+  author: 'AS'
 
 #! ---------------------------------------------------------------
 #! Plugins

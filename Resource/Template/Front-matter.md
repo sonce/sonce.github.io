@@ -1,11 +1,11 @@
 ---
-title:
-  "{{title}}"
-date:
-  "{{date}}"
+title: "{{title}}"
+date: "{{date}}"
 categories:
   - 分类
-tags: 标记
+tags:
+  - 标记
 cover: https://img.itwoow.com/python.jpg
 feature: false
+hide: false
 ---

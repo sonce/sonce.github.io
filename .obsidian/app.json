@@ -5,5 +5,7 @@
     "sonce.github.io/themes/"
   ],
   "newFileLocation": "folder",
-  "newFileFolderPath": "Notes"
+  "newFileFolderPath": "Notes",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./ceshi"
 }

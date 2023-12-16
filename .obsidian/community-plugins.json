@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "buttons"
+  "buttons",
+  "obsidian-shellcommands",
+  "oz-clear-unused-images",
+  "obsidian-custom-attachment-location"
 ]

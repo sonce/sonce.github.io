@@ -1,0 +1,7 @@
+{
+  "deleteOption": ".trash",
+  "logsModal": true,
+  "excludedFolders": "/Blog/node_modules,/Blog/public,/Blog/themes",
+  "ribbonIcon": true,
+  "excludeSubfolders": true
+}
