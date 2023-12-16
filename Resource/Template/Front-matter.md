@@ -1,11 +1,11 @@
 ---
 title:
-  "{ title }": 
+  "{{title}}"
 date:
-  "{ date }": 
+  "{{date}}"
 categories:
-  - Cate
-tags: 
+  - 分类
+tags: 标记
 cover: https://img.itwoow.com/python.jpg
 feature: false
 ---
