@@ -42,7 +42,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: wwwfans.xyz
+      url: 'wwwfans.xyz'
       # url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
