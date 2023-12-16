@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "83ea782be085ef98",
+            "id": "e1b11cfcfc6dff6a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -30,7 +30,7 @@
             }
           },
           {
-            "id": "3d0c3554340227b6",
+            "id": "8294d7c2b71239e2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -38,23 +38,19 @@
             }
           },
           {
-            "id": "9cf21011a7458849",
+            "id": "668fda69153664ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Blog/source/_posts/2023/ceshi.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "bb4dc07b61dad891",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c0dc774973ca917f",
+            "id": "1269f3ff83e02bfa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -193,31 +189,41 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "ab1b839c32687ab4",
   "lastOpenFiles": [
-    "Blog/node_modules/hexo-generator-feed/rss2.xml",
-    "Blog/node_modules/hexo-generator-feed/atom.xml",
+    "Blog/source/_posts/2023/ceshi.md",
+    "Home.md",
+    "Blog/public/post/ceshi.html",
+    "Blog/public/api/tags/标记.json",
+    "Blog/public/post/ceshi/image-20231216152323562.png",
+    "Blog/public/post/ceshi",
+    "Blog/public/api/categories/分类.json",
+    "Blog/public/api/articles/ceshi.json",
+    "Resource/Template/Front-matter.md",
+    "Blog/public/index.html",
+    "Blog/public/rss2.xml",
+    "Blog/public/atom.xml",
+    "Blog/public/post/software-Free-Online-File-Converter.html",
+    "Blog/public/post/python-修改Pip源.html",
+    "Blog/source/_posts/2023/ceshi/image-20231216152323562.png",
+    "Blog/source/_posts/2023/ceshi/image-20231216152239310.png",
+    "Blog/source/_posts/2023/ceshi/image-20231216152204638.png",
+    "Blog/source/_posts/2023/ceshi/image-20231216152139694.png",
+    "Blog/source/_posts/2023/ceshi/image-20231216152123601.png",
+    "Blog/source/_posts/2023/ceshi/image-20231216151346564.png",
+    "Blog/source/_posts/2023/ceshi/image-20231216151428645.png",
+    "Blog/source/_posts/2023/Resource/Assets/ceshi/image-20231216151206473.png",
+    "Pasted image 20231216150408.png",
+    "Notes/Pasted image 20231216144902.png.md",
     "Blog/node_modules/hexo-generator-feed/README.md",
-    "Blog/node_modules/hexo-generator-feed/package.json",
-    "Blog/node_modules/hexo-generator-feed/index.js",
-    "Blog/node_modules/hexo-generator-feed/lib/generator.js",
-    "Blog/node_modules/hexo-generator-feed/lib/autodiscovery.js",
-    "Blog/node_modules/hexo-generator-feed/lib",
-    "Blog/node_modules/hexo-generator-feed/LICENSE",
-    "Blog/node_modules/hexo-generator-feed/node_modules/hexo-util/scripts/build_highlight_alias.js",
-    "Blog/node_modules/hexo-generator-feed/node_modules/hexo-util/scripts",
     "Blog/node_modules/hexo-generator-feed/node_modules/hexo-util/README.md",
-    "Blog/node_modules/hexo-generator-feed/node_modules/hexo-util/package.json",
-    "Blog/public/static/img/dccf965f.jpg",
-    "Blog/public/icons/favicon-32x32.png",
-    "Blog/public/icons/favicon-16x16.png",
     "Blog/source/_posts/SSH免密码登录.md",
     "Blog/source/_posts/linux/SSH免密码登录.md",
     "Blog/source/_posts/python/修改Pip源.md",
-    "Home.md",
     "Blog/source/_posts/software/Free Online File Converter.md",
     "Blog/source/_posts/2023/发财致富.md",
     "Blog/source/_posts/2023/haha.md",
@@ -225,7 +231,6 @@
     "Blog/scaffolds/draft.md",
     "Blog/scaffolds/post.md",
     "Blog/scaffolds/page.md",
-    "Resource/Template/Front-matter.md",
     "Blog/node_modules/cheerio/node_modules/domutils/node_modules/dom-serializer/node_modules/domelementtype/readme.md",
     "Blog/node_modules/hexo-generator-sitemap/node_modules/dom-serializer/node_modules/entities/readme.md",
     "Blog/node_modules/hexo-fs/node_modules/dom-serializer/node_modules/entities/readme.md",
@@ -234,15 +239,6 @@
     "Blog/node_modules/hexo-auto-category/node_modules/dom-serializer/node_modules/entities/readme.md",
     "Blog/node_modules/cheerio/node_modules/domutils/node_modules/entities/readme.md",
     "Blog/node_modules/cheerio/node_modules/domutils/node_modules/dom-serializer/README.md",
-    "Blog/node_modules/hexo-theme-aurora/source/static/img/dccf965f.jpg",
-    "Blog/node_modules/hexo-cli/assets/source/_posts/hello-world.md",
-    "Blog/node_modules/vue3-lazyload/node_modules/vue-demi/README.md",
-    "Blog/node_modules/stylus/node_modules/ms/readme.md",
-    "Blog/node_modules/hexo-theme-aurora/source/icons/favicon-16x16.png",
-    "Blog/node_modules/hexo-theme-aurora/source/icons/favicon-32x32.png",
-    "Blog/node_modules/hexo-theme-aurora/public/icons/favicon-32x32.png",
-    "Blog/node_modules/hexo-theme-aurora/public/icons/favicon-16x16.png",
-    "Blog/node_modules/nib/iconic/iconic_stroke.svg",
-    "Blog/node_modules/highlight.js/styles/pojoaque.jpg"
+    "Blog/node_modules/hexo-cli/assets/source/_posts/hello-world.md"
   ]
 }

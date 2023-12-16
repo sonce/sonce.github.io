@@ -7,5 +7,6 @@ tags:
   - 标记
 cover: https://img.itwoow.com/python.jpg
 feature: false
-hide: false
+published: true
+comments: true
 ---
