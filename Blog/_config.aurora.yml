@@ -39,13 +39,13 @@ site:
 #! ---------------------------------------------------------------
 authors:
   ##! example
-  # TriDiamond:
-  #   name: TriDiamond
-  #   avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
-  #   link: https://github.com/TriDiamond
-  #   description: 'Think like an artist, code like an artisan.'
-  #   socials:
-  #     github: https://tridiamond.tech
+  TriDiamond:
+    name: WWWFans
+    avatar: https://img.wwwfans.xyz/coding.jpg
+    link: https://github.com/sonce
+    description:  '互联网是连接世界的桥梁，要用它来传播知识和正能量。'
+    socials:
+      github: https://github.com/sonce
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -60,23 +60,23 @@ menu:
   Archives: true
   Friends: false
   # 一个 github 项目的外部链接
-  Aurora:
-    name: 'Aurora'
-    path: 'https://github.com/Aurora/hexo-theme-Aurora'
+  # Aurora:
+  #   name: 'Aurora'
+  #   path: 'https://github.com/Aurora/hexo-theme-Aurora'
   # External link for a github repo
   Email:
     name: 'Mail Me'
-    path: 'mailto:code.tridiamond@gmail.com'
+    path: 'mailto:oiqwys@gmail.com'
   # 多级 projects 菜单配置
-  projects:
-    name: 'Projects'
-    children:
-      obsidian:
-        name: 'Obsidian Theme'
-        path: 'https://github.com/tridiamond/hexo-theme-obsidian'
-      Aurora:
-        name: 'Aurora Theme'
-        path: 'https://github.com/Aurora/hexo-theme-Aurora'
+  # projects:
+  #   name: 'Projects'
+  #   children:
+  #     obsidian:
+  #       name: 'Obsidian Theme'
+  #       path: 'https://github.com/tridiamond/hexo-theme-obsidian'
+  #     Aurora:
+  #       name: 'Aurora Theme'
+  #       path: 'https://github.com/Aurora/hexo-theme-Aurora'
 
 #! ---------------------------------------------------------------
 #! Theme Config
@@ -122,7 +122,7 @@ site_meta:
   favicon: https://img.wwwfans.xyz/wwwfans.ico
   description: '互联网是连接世界的桥梁，要用它来传播知识和正能量。'
   keywords: 'Frontend, Web development, Blog, DotNet Core, C#'
-  author: 'AS'
+  author: 'ASheng'
 
 #! ---------------------------------------------------------------
 #! Plugins
