@@ -39,13 +39,13 @@ site:
 #! ---------------------------------------------------------------
 authors:
   ##! example
-  TriDiamond:
-    name: WWWFans
-    avatar: https://img.wwwfans.xyz/coding.jpg
-    link: https://github.com/sonce
-    description:  '互联网是连接世界的桥梁，要用它来传播知识和正能量。'
-    socials:
-      github: https://github.com/sonce
+  # TriDiamond:
+  #   name: WWWFans
+  #   avatar: https://img.wwwfans.xyz/coding.jpg
+  #   link: https://github.com/sonce
+  #   description:  '互联网是连接世界的桥梁，要用它来传播知识和正能量。'
+  #   socials:
+  #     github: https://github.com/sonce
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -64,9 +64,9 @@ menu:
   #   name: 'Aurora'
   #   path: 'https://github.com/Aurora/hexo-theme-Aurora'
   # External link for a github repo
-  Email:
-    name: 'Mail Me'
-    path: 'mailto:oiqwys@gmail.com'
+  # Email:
+  #   name: 'Mail Me'
+  #   path: 'mailto:blog@wwwfans.xyz'
   # 多级 projects 菜单配置
   # projects:
   #   name: 'Projects'
@@ -97,21 +97,21 @@ theme:
 #! ---------------------------------------------------------------
 socials:
   customs:
-  ##! Example:
-  ##! --- Using SVG
-  # bilibili:
-  #   icon: http://localhost:4000/svg/bilibili.svg
-  #   link: https://live.bilibili.com/22619211
+  #! Example:
+  #! --- Using SVG
+  bilibili:
+    icon: http://localhost:4000/svg/bilibili.svg
+    link: https://live.bilibili.com/22619211
 
-  ##! --- Using IconFont
-  # baidu:
-  #   icon: iconfont icon-baidu
-  #   link: https://live.bilibili.com/22619211
+  #! --- Using IconFont
+  baidu:
+    icon: iconfont icon-baidu
+    link: https://live.bilibili.com/22619211
 
-  ##! --- Using FontAwesome
-  # book:
-  #   icon: far fa-address-book
-  #   link: https://live.bilibili.com/22619211
+  #! --- Using FontAwesome
+  book:
+    icon: far fa-address-book
+    link: https://live.bilibili.com/22619211
 
 #! ---------------------------------------------------------------
 #! Site Meta Configs

@@ -26,3 +26,4 @@ name 发布Blog
 type link
 action obsidian://open?file=Blog/DeployBlog.bat
 ```
+
