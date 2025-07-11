@@ -18,46 +18,27 @@
                 "mode": "preview",
                 "source": true
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Home"
             }
           },
           {
-            "id": "e1b11cfcfc6dff6a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8294d7c2b71239e2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "668fda69153664ce",
+            "id": "73cdc99775fc7db3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/2023/ceshi.md",
+                "file": "Notes/MySql杂记.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1269f3ff83e02bfa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              },
+              "icon": "lucide-file",
+              "title": "MySql杂记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,8 +57,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -92,7 +76,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -100,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Notes/编程/不支持目标框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 不支持目标框架"
             }
           },
           {
@@ -140,10 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Notes/编程/不支持目标框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 不支持目标框架"
             }
           },
           {
@@ -154,7 +146,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -163,8 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
-              }
+                "file": "Notes/MySql杂记.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "MySql杂记 的大纲"
             }
           },
           {
@@ -172,11 +171,23 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "df01eb8acb5b478f",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,61 +195,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "ab1b839c32687ab4",
+  "active": "a73c5b1b1b3ae865",
   "lastOpenFiles": [
-    "Blog/source/_posts/2023/ceshi.md",
-    "Home.md",
-    "Blog/public/post/ceshi.html",
-    "Blog/public/api/tags/标记.json",
-    "Blog/public/post/ceshi/image-20231216152323562.png",
-    "Blog/public/post/ceshi",
-    "Blog/public/api/categories/分类.json",
-    "Blog/public/api/articles/ceshi.json",
+    "Notes/科学上网/XBoard安装.md",
+    "Notes/科学上网/如何使用Google的Gemini.md",
+    "README.md",
+    "Notes/Traefik.md",
+    "Notes/Docker.md",
+    "Notes/Android手机远程.md",
+    "Notes/密码管理 - Keepass 免费开源.md",
+    "Notes/编程/不支持目标框架.md",
+    "Notes/编程/MySql表结构修改.md",
+    "Notes/阿里云盘挂载.md",
+    "Notes/甲骨文云禁用多因素验证 MFA.md",
+    "Notes/Docker Swarm.md",
+    "Notes/Google Play 礼品卡锁卡.md",
+    "Notes/Linux设置Host.md",
+    "Notes/Microsoft Graph and Office 365.md",
+    "Notes/MySql杂记.md",
+    "Notes/NFS.md",
+    "Notes/Portainer.md",
+    "Notes/Ubuntu.md",
     "Resource/Template/Front-matter.md",
-    "Blog/public/index.html",
-    "Blog/public/rss2.xml",
-    "Blog/public/atom.xml",
-    "Blog/public/post/software-Free-Online-File-Converter.html",
-    "Blog/public/post/python-修改Pip源.html",
-    "Blog/source/_posts/2023/ceshi/image-20231216152323562.png",
-    "Blog/source/_posts/2023/ceshi/image-20231216152239310.png",
-    "Blog/source/_posts/2023/ceshi/image-20231216152204638.png",
-    "Blog/source/_posts/2023/ceshi/image-20231216152139694.png",
-    "Blog/source/_posts/2023/ceshi/image-20231216152123601.png",
-    "Blog/source/_posts/2023/ceshi/image-20231216151346564.png",
-    "Blog/source/_posts/2023/ceshi/image-20231216151428645.png",
-    "Blog/source/_posts/2023/Resource/Assets/ceshi/image-20231216151206473.png",
-    "Pasted image 20231216150408.png",
-    "Notes/Pasted image 20231216144902.png.md",
-    "Blog/node_modules/hexo-generator-feed/README.md",
-    "Blog/node_modules/hexo-generator-feed/node_modules/hexo-util/README.md",
-    "Blog/source/_posts/SSH免密码登录.md",
-    "Blog/source/_posts/linux/SSH免密码登录.md",
-    "Blog/source/_posts/python/修改Pip源.md",
-    "Blog/source/_posts/software/Free Online File Converter.md",
-    "Blog/source/_posts/2023/发财致富.md",
-    "Blog/source/_posts/2023/haha.md",
-    "Blog/source/_posts/Free Online File Converter.md",
-    "Blog/scaffolds/draft.md",
-    "Blog/scaffolds/post.md",
-    "Blog/scaffolds/page.md",
-    "Blog/node_modules/cheerio/node_modules/domutils/node_modules/dom-serializer/node_modules/domelementtype/readme.md",
-    "Blog/node_modules/hexo-generator-sitemap/node_modules/dom-serializer/node_modules/entities/readme.md",
-    "Blog/node_modules/hexo-fs/node_modules/dom-serializer/node_modules/entities/readme.md",
-    "Blog/node_modules/hexo-deployer-git/node_modules/dom-serializer/node_modules/entities/readme.md",
-    "Blog/node_modules/hexo-cli/node_modules/dom-serializer/node_modules/entities/readme.md",
-    "Blog/node_modules/hexo-auto-category/node_modules/dom-serializer/node_modules/entities/readme.md",
-    "Blog/node_modules/cheerio/node_modules/domutils/node_modules/entities/readme.md",
-    "Blog/node_modules/cheerio/node_modules/domutils/node_modules/dom-serializer/README.md",
-    "Blog/node_modules/hexo-cli/assets/source/_posts/hello-world.md"
+    "Home.md",
+    "Notes/未命名.md",
+    "Notes/科学上网/XBoard.md",
+    "Blog/source/_posts/修改Pip源.md",
+    "Resource/Assets/Android手机远程/开机自启ADB调试.zip",
+    "Resource/Assets/不支持目标框架/image-20240924092941244.png",
+    "Resource/Assets/不支持目标框架/image-20240924092828592.png",
+    "Resource/Assets/不支持目标框架/image-20240924092634934.png",
+    "Resource/Assets/不支持目标框架/image-20240924092222020.png",
+    "Resource/Assets/不支持目标框架/image-20240924092131176.png",
+    "Resource/Assets/不支持目标框架",
+    "Notes/对赌诉讼.md",
+    "Notes/手机/制作属于自己的MultiTTS数据包.md",
+    "Resource/Assets/密码管理 - Keepass 免费开源/image-20240506084619394.png",
+    "Resource/Assets/制作属于自己的MultiTTS数据包/image-20240504085118682.png",
+    "Resource/Assets/制作属于自己的MultiTTS数据包/image-20240504100904949.png",
+    "Resource/Assets/制作属于自己的MultiTTS数据包",
+    "Resource/Assets/Android手机远程/image-20240425173511927.png",
+    "Resource/Assets/Android手机远程/image-20240425173253267.png",
+    "Resource/Assets/Android手机远程",
+    "Resource/Assets/密码管理 - Keepass 免费开源",
+    "Resource/Assets/小米ROM MIUI 澎湃 Hyper OS 刷机包无法下载 速度慢",
+    "Notes/手机",
+    "未命名",
+    "Resource/Assets/Traefik",
+    "Resource/Assets/如何使用Google的Gemini"
   ]
 }
